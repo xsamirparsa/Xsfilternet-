@@ -1,0 +1,39 @@
+vless://cfcf33e1-e6e6-40f3-a05d-50bb423a2083@wWw.zulA.iR:2083?path=%2F%3FeNd0yHpzVaeg3IIboqKr1gKXEEg3TcQfSegCWB4SCamzVdL4MuyjhF96AvLcZSR&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&host=lVSr4IradD1e4fSQr3T39SMxNORzIn8SvnMhB70deUFTqV6f3kuaHUzNwJvZ4nn.pAgES-DeV.SiTe&fp=chrome&type=ws&sni=C4XxW2ShXOPBYXsfPj57BlJyHTb7a03kSi8yJrHuIEKdcIdRCkNZPWFEC9pvzX3.PagEs-deV.sItE#%23%DB%8C%D9%88%D8%B3%D9%81_%D9%82%D8%A8%D8%A7%D8%AF%DB%8C-2083
+wireguard://0FIXk8ceoQEd362FEzLIjD%2BfadAuIYAVsMpqaBn7%2FVw%3D@162.159.195.192:4233?address=172.16.0.2%2F32%2C2606%3A4700%3A110%3A8494%3A7488%3A506d%3Aad6%3Adf00%2F128&reserved=49%2C171%2C135&publickey=bmXOC%2BF1FxEMF9dyiK2H5%2F1SUtzH0JuVo51h2wPfgyo%3D&mtu=1306#سگارو
+{
+ "outbounds": [
+  {
+   "type": "wireguard",
+   "tag": "hex § 0",
+   "local_address": [
+    "172.16.0.2/24",
+    "2606:4700:110:88a8:e259:a2aa:d804:e01c/128"
+   ],
+   "private_key": "mGyq+B2tTb6Ku6XM16T700u4k3/rcr9WUgTRzhMHt2Q=",
+   "server": "snrxftzwgajo2e6dnx_p",
+   "server_port": 968,
+   "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+   "reserved": "H2Xy",
+   "mtu": 1306,
+   "fake_packets": "2-4",
+   "fake_packets_size": "10-30",
+   "fake_packets_delay": "5-20",
+   "fake_packets_mode": "h_30"
+  },
+  {
+   "type": "wireguard",
+   "tag": "WoW § 1",
+   "detour": "hex § 0",
+   "local_address": [
+    "172.16.0.2/24",
+    "2606:4700:110:8504:5eaa:4e31:396d:1656/128"
+   ],
+   "private_key": "UOihrwUGAAjAY+b0n4rBYtlgr+1MFTcSRym6jrF1GFA=",
+   "server": "y7-nj6pvkdmg2mwq9o7e",
+   "server_port": 1018,
+   "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+   "reserved": "EfCa",
+   "mtu": 1330
+  }
+ ]
+}
